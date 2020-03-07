@@ -11,3 +11,12 @@ const server = http.createServer((req, res)=>{
 const PORT = 5000;
 
 server.listen(PORT, () => console.log(`server running on port ${PORT}`));
+
+/* 
+1xx: Informational
+2xx: Success
+3xx: Redirection
+4xx: Client Error
+5xx: Server Error
+for more info https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+*/
